@@ -1,0 +1,89 @@
+html {
+	background-color: #741E19;
+}
+
+h1 {
+	font-family: sherif;
+	font-weight: 400;
+	font-size: 45px;
+	text-align: center;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	color: #f1bb5f;
+}
+
+hr {
+	border-color: #f1bb5f;
+}
+
+.formulaire, .accueil, .covoiturage, .acces {
+	text-decoration: none;
+	color: #f1bb5f;
+	font-family: sherif;
+	display: block;
+	padding: 10px 0px;
+	font-size: 20px;
+}
+
+.formulaire:hover, .accueil:hover, .covoiturage:hover, .acces:hover, .planning:hover {
+	text-decoration: none;
+	color: #f1bb5f;
+}
+
+.planning {
+	text-decoration: none;
+	color: #f1bb5f;
+	font-family: sherif;
+	font-weight: bold;
+	display: block;
+	padding: 10px 0px;
+	font-size: 20px;
+}
+
+#fin {
+	text-align: center;
+	font-family: sherif;
+	color: #f1bb5f;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav li {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+nav {
+	width: 100%;
+	margin: 0 auto;
+	position: sticky;
+}
+
+nav ul::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+div>p {
+	color: #f1bb5f ;
+	font-size: 20px;
+	font-family: sherif;
+	text-align: center;
+}
+
+header {
+	margin-top: 30px;
+}
+
+header, footer {
+	background-color: #741E19;
+}

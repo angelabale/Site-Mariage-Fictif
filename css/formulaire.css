@@ -1,0 +1,90 @@
+html {
+	background-color: #741E19;
+}
+
+h1 {
+	font-family: sherif;
+	font-weight: 400;
+	font-size: 45px;
+	text-align: center;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	color: #f1bb5f;
+}
+
+.accueil, .planning, .covoiturage, .acces {
+	text-decoration: none;
+	color: #f1bb5f;
+	font-family: sherif;
+	display: block;
+	padding: 10px 0px;
+	font-size: 20px;
+}
+
+.formulaire {
+	text-decoration: none;
+	color: #f1bb5f;
+	font-family: sherif;
+	font-weight: bold;
+	display: block;
+	padding: 10px 0px;
+	font-size: 20px;
+}
+
+hr {
+	border-color: #f1bb5f;
+}
+
+h2 {
+	font-family: sherif;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+}
+
+header p {
+	font-family: sherif;
+	font-size: 20px;
+	text-align: center;
+}
+
+#fin {
+	text-align: center;
+	font-family: sherif;
+	color: #f1bb5f;
+}
+
+.co-voiturage {
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav li {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+nav {
+	width: 100%;
+	margin: 0 auto;
+	position: sticky;
+}
+
+nav ul::after {
+	content: "";
+	display: table;
+	clear: both;
+}

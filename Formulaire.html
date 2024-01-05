@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Formulaire</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/formulaire.css"/>
+    </head>
+    <header>
+        <h1>Maria & Carl</h1>
+            <nav>
+                <ul>
+                    <li><a href="accueil.html" class="accueil">Accueil</a></li>
+                    <li><a href="formulaire.html" class="formulaire">Formulaire</a></li>
+                    <li><a href="planning.html" class="planning">Planning</a></li>
+                    <li><a href="acces.html" class="acces">Accès</a></li>
+                    <li><a href="covoiturage.html" class="covoiturage">Co-voiturage</a></li>
+                </ul>
+            </nav>
+        <hr>
+    </header>
+    <body>
+    <form method="post" action="traitement.php">
+        <fieldset>
+            <legend><strong>Coordonnées</strong></legend>
+            <label>Nom</label> : <input type="text" name="nom" placeholder="Ex : Andersen" required> <br>
+            <label>Prénom</label> : <input type="text" name="prenom" placeholder="Ex : Maria" required> <br>
+            <label>Téléphone</label> : <input type="tel" name="téléphone" placeholder="Ex : +33612345678" required> <br>
+            <label>email</label> : <input type="email" name="email" placeholder="Ex : Carl@gmail.com" required>
+        </fieldset>
+        <fieldset>
+            <legend><strong>Choix alimentaires</strong></legend>
+            Êtes-vous allergique à un aliment ? <strong>Si oui</strong>, veuillez préciser lequel. <br>
+            <label>Aliment(s)</label> : <textarea type="text" name="aliment" id="aliment" placeholder="Ex : lactose, porc"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend><strong>Hébergement</strong></legend>
+            Avez-vous besoin d'être hébergé ? <br>
+            <input type="radio" name="aide" value="oui" id="oui" /> <label for="oui">Oui</label><br>
+            <input type="radio" name="aide" value="non" id="non" /> <label for="non">Non</label><br>
+        </fieldset>
+        <fieldset>
+            <legend><strong>Trajet</strong></legend>
+            Souhaitez-vous faire du covoiturage ? Si vous cochez oui, veuillez vous rendre sur cette page : <a href="covoiturage.html" class="co-voiturage">Co-voiturage</a><br>
+            <input type="radio" name="aide" value="oui" id="oui" /> <label for="oui">Oui</label><br>
+            <input type="radio" name="aide" value="non" id="non" /> <label for="non">Non</label><br>
+        </fieldset>
+        <fieldset>
+            <legend><strong>Aide</strong></legend>
+            Avez-vous besoin d'une personne accompagnante ? <br>
+            <input type="radio" name="aide" value="oui" id="oui" /> <label for="oui">Oui</label><br>
+            <input type="radio" name="aide" value="non" id="non" /> <label for="non">Non</label><br>
+        </fieldset>
+        <p> 
+            <input type="submit" value="Envoyer" /> 
+        </p>
+    </form>
+    <img src="photo/coeur.png" alt="Illustration d'un coeur en bois avec les initiales du couple" title="Illustration d'un coeur en bois" height="150px">
+    <br>
+    </body>
+    <footer>
+        <hr>
+        <p id="fin">
+            © 2021 Bale, Inc. All rights reserved. <br>
+            Privacy Policy / Terms of Use / Web Accessibility / Your CA Privacy Rights
+        </p>
+    </footer>
+<html>
